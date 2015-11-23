@@ -1,0 +1,59 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+the bug was on one of the lines changed.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Easy access to entire history of a file will make it easier to find out where a bug was introduced.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+manually creating a version allows control of when a version is created.  Autosave is nice in case you forget to save work, but it doesn't account for progress in the file.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+granular control.
+
+How can you use the commands git log and git diff to view the history of files?
+
+ use git log to view the history of files, use git diff to find out what changes were made between versions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Allow you to back out changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Saving and restoring versions
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You will be able to fix bugs quicker by spotting where they were introduced.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manual control over commits gives you the choice to commit in logical units.  Automatic saves give you too many non-usable files.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Committing related files gives you a snapshot of a point in time for the system.  Google docs doesn't need to save related files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows the commit comments.  Git diff shows which lines were changed.
+
+How might using version control make you more confident to make changes that could break something?
+
+You can always revert back to a known good commit.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Saving files
+
+cd ..
